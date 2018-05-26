@@ -12,7 +12,6 @@ ZF_NAMESPACE_GLOBAL_BEGIN
 
 zfstring demoFunc(void)
 {
-    zfLogT();
     return zfText("string from demo lib");
 }
 
