@@ -12,7 +12,7 @@ ZF_NAMESPACE_GLOBAL_BEGIN
 
 zfstring demoFunc(void)
 {
-    return zfText("string from demo lib");
+    return "string from demo lib";
 }
 
 ZF_NAMESPACE_GLOBAL_END
