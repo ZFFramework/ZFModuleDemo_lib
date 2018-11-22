@@ -11,7 +11,7 @@
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 5F578D979EC0B503B122280EFC31D7F2 /* Build configuration list for PBXAggregateTarget "ZFModuleDemo_lib_aggregate" */;
 			buildPhases = (
-				71BBD6B5FE47BEDC759C45D20E209869 /* ShellScript */,
+				34A3DC787623FEDF096289C8B82FE418 /* ShellScript */,
 			);
 			dependencies = (
 			);
@@ -173,7 +173,7 @@
 			shellPath = /bin/sh;
 			shellScript = "sh ${SRCROOT}/../../../../../../ZFFramework/tools/spec/iOS/unique_proj.sh \"${SRCROOT}/${PROJECT_NAME}.xcodeproj\"";
 		};
-		71BBD6B5FE47BEDC759C45D20E209869 /* ShellScript */ = {
+		34A3DC787623FEDF096289C8B82FE418 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
