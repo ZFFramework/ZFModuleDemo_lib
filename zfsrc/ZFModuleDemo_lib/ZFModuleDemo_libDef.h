@@ -9,7 +9,12 @@
 #include "ZFCore.h"
 ZF_NAMESPACE_GLOBAL_BEGIN
 
-extern zfstring demoFunc(void);
+/** @brief used to export symbols */
+#ifndef ZFLIB_ZFModuleDemo_lib
+    #define ZFLIB_ZFModuleDemo_lib ZF_ENV_IMPORT
+#endif
+
+extern ZFLIB_ZFModuleDemo_lib zfstring demoFunc(void);
 
 ZF_NAMESPACE_GLOBAL_END
 #endif // #ifndef _ZFI_ZFModuleDemo_libDef_h_
