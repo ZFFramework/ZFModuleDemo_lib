@@ -7,7 +7,7 @@ zfstring demoFunc(void) {
 }
 
 ZF_GLOBAL_INITIALIZER_INIT(ZFModuleDemo_lib_test) {
-    zfLog() << "contents from ZFProtocolZFModuleDemo: " << ZFPROTOCOL_ACCESS(ZFModuleDemo)->demoImpl();
+    ZFLog() << "contents from ZFProtocolZFModuleDemo: " << ZFPROTOCOL_ACCESS(ZFModuleDemo)->demoImpl();
 }
 ZF_GLOBAL_INITIALIZER_END(ZFModuleDemo_lib_test)
 
