@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ZFModuleDemo_lib"
+rootProject.name = 'ZFModuleDemo_lib'
 include ':zflib'
 
